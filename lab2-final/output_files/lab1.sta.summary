@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock_27'
+Slack : -8.866
+TNS   : -1162.825
+
+Type  : Slow Model Setup 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : -3.846
+TNS   : -17.007
+
+Type  : Slow Model Setup 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : -0.392
+TNS   : -1.057
+
+Type  : Slow Model Hold 'clock_27'
+Slack : -1.216
+TNS   : -2.126
+
+Type  : Slow Model Hold 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : 0.527
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : 0.814
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clock_27'
+Slack : -2.000
+TNS   : -504.380
+
+Type  : Slow Model Minimum Pulse Width 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : -0.500
+TNS   : -23.000
+
+Type  : Slow Model Minimum Pulse Width 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clock_27'
+Slack : -3.563
+TNS   : -443.192
+
+Type  : Fast Model Setup 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : -1.146
+TNS   : -4.913
+
+Type  : Fast Model Setup 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clock_27'
+Slack : -1.006
+TNS   : -1.875
+
+Type  : Fast Model Hold 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : 0.504
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clock_27'
+Slack : -2.000
+TNS   : -504.380
+
+Type  : Fast Model Minimum Pulse Width 'lcd_ascii:inst3|en_gen:lcd_en_gen|en'
+Slack : -0.500
+TNS   : -23.000
+
+Type  : Fast Model Minimum Pulse Width 'ram2AR:inst13|altsyncram:altsyncram_component|altsyncram_i4a1:auto_generated|q_a[12]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
