@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="lab1">
-		<CBX_INST_ENTRY INSTANCE_NAME="|lab1|div:inst16|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_crp.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lab1|mul:inst15|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_j6n.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lab1|ram1:inst12|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_aub1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lab1|ram2AR:inst13|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_i4a1.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
